@@ -1,0 +1,361 @@
+body {
+    background-image: url(https://i.ibb.co/gMwPwFb/texture3.png);  background-repeat: repeat; margin-top:150px;
+}
+
+   *, body { cursor:crosshair;}
+
+.base { position:absolute;
+    background-color:transparent;
+    z-index:999;
+    overflow:visible; width: 700px;
+	   height: 500px; margin-left: 33%; margin-top:2%;
+}
+
+.ritratto_avatar { 
+    background-image: url('https://i.ibb.co/0ntNMST/1.png');
+    transition: 1s ease;
+
+}
+
+.ritratto_avatar:hover { transform:rotate(-1deg);
+					   transition-delay:0.1s;
+					   margin-top:10px;
+width: 200px;				   
+					   }
+
+a {
+        color: #999;
+        text-decoration: none;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        }
+ 
+a:hover {
+    opacity:0;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+        }
+
+div.name {
+   display: block;
+    text-align: left;
+    width: 300px;
+    line-height: 18px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border-bottom: 0px solid #191813;
+    color: #554f4d;
+    font-family: Cambria;
+    font-size: 14px;
+    background: none;
+    margin-top: 0px;
+    font-weight: light;
+    border: 0.5px #1a1a1a;
+    letter-spacing: 9px;
+}
+
+div.info {
+    text-align: center;
+    line-height: 25px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-bottom: 0px solid #191813;
+    color: #676767a1;
+    font-family: Cambria;
+    font-size: 8pt;
+    background: none;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    font-weight: light;
+    border: 0px #000000;
+}
+
+.accordion {
+        margin-left: auto;
+    margin-right: auto;
+    color: #39221e;
+    opacity: 0.9;
+    cursor: crosshair;
+    width: 607px;
+    text-align: center;
+    border: solid 0px #12130d;
+    outline: none;
+    transition: 0.4s;
+    background: url(/themes/advanced/imgs/texturenuova.png);
+    font-family: Cambria;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: light;
+    padding: 5px;
+}
+
+.bg_pg {
+    padding: 5px;
+    color: #3b3a39;
+    opacity: 1;
+    cursor: pointer;
+    width: 600px;
+    text-align: center;
+    border: solid 0px #12130d;
+    background: url(/themes/advanced/imgs/texturenuova.png);
+    font-family: Cambria;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: light;
+    margin-left: -6.5px;
+    margin-top: -1px;
+}
+
+
+.link_invia_messaggio {filter: saturate(0);}
+
+img.profilo_img_gilda {
+    height: 15px;
+    width: 15px;
+    filter: saturate(0);
+}
+
+
+.principal {width: 400px;
+            height:400px;
+            background-image:url('https://i.postimg.cc/T1g4thKG/esteban-paredes.png'); 
+            position:absolute;
+            margin-left:100px;
+           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            transition:ease 1s;
+            z-index:1;}
+
+.base:hover .principal {width: 400px;
+            height:400px;
+            background-image:url('https://i.postimg.cc/v8VkY23j/mati-copa.png'); 
+            position:absolute;
+            margin-left:100px;
+           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            transform:rotate(-10deg);
+                    }
+
+.boxbg { width:180px;
+         height: 100px;
+       background:#000000;
+       position:absolute;
+       transform:rotate(-45deg);
+       margin-top:50px;
+       margin-left:140px;
+       z-indeg:0;
+       padding:10px;
+       transition: 1s ease-out;}
+
+.base:hover .boxbg {
+                    transform:none;
+                    margin-left:-10px;
+                    height:200px;
+  width:200px;
+                    background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+                  z-index:2;
+margin-top:260px;
+margin-left:80px;}
+
+.icona1 {background-image: url('https://i.postimg.cc/B68y1msj/100x100-2.png');
+        width:100px;
+        height:100px;
+        border-radius:100%;
+         position:absolute;
+         margin-top:-250px;
+         margin-left:150px;
+         z-index:2;
+         opacity:0;
+         transition:1s cubic-bezier(0.4, 0, 1, 1);
+         
+        }
+
+.icona2 {background-image: url('https://i.postimg.cc/PqV9xgGG/100x100-1.png');
+        width:100px;
+        height:100px;
+        border-radius:100%;
+         position:absolute;
+         margin-top:-300px;
+         margin-left:260px;
+         z-index:2;
+         opacity:0;
+          transition:1s cubic-bezier(0.4, 0, 1, 1);
+         
+         
+        }
+
+.icona3 {background-image: url('https://i.postimg.cc/CMb0PKTz/100x100-3.png');
+        width:100px;
+        height:100px;
+        border-radius:100%;
+         position:absolute;
+         margin-top:-250px;
+         margin-left:360px;
+         z-index:2;
+         opacity:0;
+          transition:1s cubic-bezier(0.4, 0, 1, 1);
+         
+         
+        }
+
+.base:hover .icona1 {opacity:1;
+                      margin-top:300px;
+         margin-left:260px; 
+                     transition-delay:1s;
+                    }
+
+.base:hover .icona2 {opacity:1;
+                      margin-top:250px;
+         margin-left:150px;  
+                     transition-delay:1s;
+                    }
+.base:hover .icona3 {opacity:1;
+                        margin-top:250px;
+         margin-left:360px; 
+                     transition-delay:1s;
+                    }
+
+
+.affetti { width:180px;
+         height: 100px;
+       background:#000000;
+       position:absolute;
+       transform:rotate(135deg);
+       margin-top:230px;
+       margin-left:280px;
+       z-indeg:0;
+       padding:10px;
+       transition: 1s ease-out;}
+
+.base:hover .affetti {
+                    transform:none;
+                    margin-left:-10px;
+                    height:200px;
+  width:200px;
+                    background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+                  z-index:1;
+margin-top:260px;
+margin-left:305px;}
+
+.affetti b:hover {color: #8d8d8d;}
+
+
+.contenutobg {
+             color:#3d3d3d;
+             transition:1s ease;
+             margin-top: 0px;
+             font-size: 10px;
+             font-family: tahoma;
+  
+             }
+
+.base:hover .contenutobg {margin-top:140px;}
+
+.contenutobg b {
+               color: #59544e;
+               font-family:cambria;
+               font-size: 13px;
+               font-weight:lighter;
+               letter-spacing: 1px;
+               }
+
+.contenutobg j {color: #ffffff75;}
+
+.contenutobg i {
+    background: #a1a1a1;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: times;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.contenutobg u {
+  
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: times;
+    font-weight: bolder;
+    font-size: 11px;
+  text-decoration:none;
+  color: #ffffff;
+  font-family:georgia;
+  text-transform:uppercase;
+  font-weight:lighter;
+  font-size:9px;
+  
+}
+
+.blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+.quotes {width:200px;
+        height:200px;
+        position:absolute;
+        background-image: url('https://i.postimg.cc/YqQK5zxP/txt.png');
+        margin-top:100px;
+        z-index:3;
+        transform:rotate(20deg);
+        margin-left:100px;
+        margin-top:180px;
+        transition:1s ease;}
+
+.base:hover .quotes { 
+  width:100px;
+        height:100px;
+  margin-left:100px;
+        margin-top:320px;
+        background-size:100px 100px;}
+
+.quotes2 {width:200px;
+        height:200px;
+        position:absolute;
+        background-image: url('https://i.ibb.co/r7wpB5t/5.png');
+        margin-top:100px;
+        z-index:3;
+        transform:rotate(10deg);
+        margin-left:380px;
+        margin-top:180px;
+        transition:1s ease;}
+
+.base:hover .quotes2 { 
+  width:100px;
+        height:100px;
+  margin-left:440px;
+        margin-top:300px;
+        background-size:100px 100px;}
+
+::selection {
+  color: #4d4d4d;
+  background-color: #000000;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background-color:#000;
+}
